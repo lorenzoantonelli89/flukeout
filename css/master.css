@@ -1,0 +1,52 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container.left{
+  width: 1000px;
+  height: 2000px;
+  background-color: rgb(46,42,35);
+}
+
+/* parte di header */
+header{
+  position: relative;
+  color: rgba(255,255,255,.3);
+}
+
+.logo.plate{
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.logo.apple{
+  height: 12px;
+  width: 12px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+}
+
+header>span.logo{
+  position: absolute;
+  top: 17px;
+  left: 40px;
+}
+
+.logo.twitter{
+  /* background-image: url("https://icon-library.com/images/twitter-logo-icon/twitter-logo-icon-4.jpg"); */
+  width: 24px;
+  height: 24px;
+  color: white;
+
+}
